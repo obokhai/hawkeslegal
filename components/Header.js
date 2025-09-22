@@ -114,11 +114,11 @@ const Header = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`fixed inset-0 bg-[#0f172a] text-white flex flex-col pt-28 pb-12 z-40 justify-start px-8 overflow-y-auto transform transition-transform duration-600 ease-in-out ${
+        className={`fixed inset-0 bg-[#0f172a] text-white flex flex-col pt-28 pb-12 z-40 justify-start px-8 transform transition-transform duration-600 ease-in-out ${
           menuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
-        <header className="absolute top-0 left-0 w-full z-30 flex items-center justify-between lg:px-12 pl-8 lg:pl-16 py-4">
+        <header className="top-0 left-0 w-full absolute z-30 flex items-center justify-between lg:px-12 pl-8 lg:pl-16 py-4">
         {/* Logo */}
         <Link href={`/`} className="text-white font-bold text-xl">
           <Image src="/logo.svg" alt="Logo" width={120} height={0} className="" />
@@ -135,7 +135,7 @@ const Header = () => {
           </button>
         </div>
       </header>
-      <div className="flex max-lg:flex-col lg:justify-between lg:items-center mb-16 lg:mb-0">
+      <div className="flex max-lg:flex-col lg:justify-between lg:items-center mb-16 lg:mb-0 overflow-y-auto">
         <nav className="space-y-8 text-3xl lg:px-8 text-[#d4d5d6] font-bold cursor-pointer">
           <Link href="/about" onClick={() => setMenuOpen(false)} className="hover:text-gray-400 block p-3">About Us</Link>
           <Link href="/people" onClick={() => setMenuOpen(false)} className="hover:text-gray-400 block p-3">People</Link>
