@@ -139,9 +139,9 @@ const Header = () => {
         <nav className="space-y-8 text-3xl lg:px-8 text-[#d4d5d6] font-bold cursor-pointer">
           <Link href="/about" onClick={() => setMenuOpen(false)} className="hover:text-gray-400 block p-3">About Us</Link>
           <Link href="/people" onClick={() => setMenuOpen(false)} className="hover:text-gray-400 block p-3">People</Link>
-          <Link href="#" onClick={() => setMenuOpen(false)} className="hover:text-gray-400 block p-3">Practices</Link>
-          <Link href="#" onClick={() => setMenuOpen(false)} className="hover:text-gray-400 block p-3">Media & Resources</Link>
-          <Link href="#" onClick={() => setMenuOpen(false)} className="hover:text-gray-400 block p-3">Careers</Link>
+          {/* <Link href="#" onClick={() => setMenuOpen(false)} className="hover:text-gray-400 block p-3">Practices</Link>
+          <Link href="#" onClick={() => setMenuOpen(false)} className="hover:text-gray-400 block p-3">Media & Resources</Link> */}
+          <Link href="/career" onClick={() => setMenuOpen(false)} className="hover:text-gray-400 block p-3">Careers</Link>
           <Link href="/contact" onClick={() => setMenuOpen(false)} className="hover:text-gray-400 block p-3">Contact Us</Link>
         </nav>
         <div className="flex flex-col gap-y-6 mt-12 mx-4 text-white">
