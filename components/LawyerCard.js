@@ -23,7 +23,7 @@ const LawyerCard = ({ name, imageUrl ,href}) => {
       </div>
 
       {/* Name Overlay (always visible) */}
-      <div className={`absolute ${isHovered? "-translate-y-20 transition-transform duration-300 ease-in-out":"translate-y-0"} left-0 right-0 p-4 py-6 text-white bg-black/70`}>
+      <div className={`absolute ${isHovered? "lg:-translate-y-20 transition-transform duration-300 ease-in-out":"translate-y-0"} max-lg:-translate-y-20 left-0 right-0 p-4 py-6 text-white bg-black/70`}>
         <h2 className="text-xl font-bold">{name}</h2>
       </div>
 
