@@ -133,4 +133,16 @@
     @apply bg-background text-foreground;
   }
 }
-
+nav {
+  scrollbar-width: none;
+  scrollbar-color: var(--color-border) transparent;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+}
+/* .no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none IE and Edge 
+  scrollbar-width: none;   Firefox 
+} */

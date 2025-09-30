@@ -10,7 +10,7 @@ const Footer = () => {
   <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-end gap-8">
 
     <div class="w-full md:w-1/3">
-      <p class="mb-1 text-[14px] ml-4">Subscribe :</p>
+      <p class="mb-1 text-[14px] ml-4 capitalize lg:mb-3">Sign up to recieve our email publications:</p>
       <div class="flex items-center bg-gray-100 rounded-full overflow-hidden">
         <input 
           type="email" 
