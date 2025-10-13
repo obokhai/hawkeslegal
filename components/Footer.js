@@ -32,7 +32,7 @@ const Footer = () => {
       <Link href="#" class="bg-gray-800  hover:bg-orange-500 p-3 rounded-full">
         <Linkedin/>
       </Link>
-      <Link href="#" class="bg-gray-800 hover:bg-purple-500  p-3 rounded-full">
+      <Link href="https://www.instagram.com/hawkeslegal?igsh=ODN6NTBrenYwZWNq" class="bg-gray-800 hover:bg-purple-500  p-3 rounded-full">
         <Instagram/>
       </Link>
       <Link href="#" class="bg-gray-800 hover:bg-blue-800 p-3 rounded-full">
