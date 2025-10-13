@@ -61,8 +61,8 @@ const Team = () => {
     <>
         <CustomHeader title="Team" />
         
+            <h1 className='lg:text-6xl text-4xl font-bold text-center Capitalize -mt-2'>Our Lawyers</h1>
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-0 p-16">
-            <h1 className='lg:text-6xl text-4xl font-bold Capitalize -mt-2'>Our Lawyers</h1>
           {teamMembers.map((member, index) => (
             <LawyerCard key={index} 
               name = {member.name}
